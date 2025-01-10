@@ -20,6 +20,7 @@ head{
     background-color: white;
 }
 h2{
+    display: inline-block;
     font-size: 34px;
     background-color: white;
 }
