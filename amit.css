@@ -5,13 +5,13 @@ font-family: Arial;
 h1{
     display: inline-block;
     font-family: Arial;
-    font-size: 28px;
+    font-size: 40px;
 
 }
-textarea{
-    width: 200px;
-}
 p{
+    font-size: 28px;
+    word-wrap: break-word;
+    width: 100px;
     display: inline-block;
     background-color: white;
     font-family: Arial;
@@ -21,10 +21,12 @@ head{
     background-color: white;
 }
 h2{
+    font-size: 34px;
     display: inline-block;
     background-color: white;
 }
 ul{
+    font-size: 28px;
     display: inline-block;
     background-color: white;
 }
