@@ -5,13 +5,14 @@ font-family: Arial;
 h1{
     font-family: Arial;
     font-size: 40px;
+    margin: auto;
 
 }
 p{
     font-size: 28px;
     word-wrap: break-word;
     width: 1000px;
-    display: inline-block;
+    display: inline;
     background-color: white;
     font-family: Arial;
 }
@@ -20,10 +21,11 @@ head{
     background-color: white;
 }
 h2{
-    display: inline-block;
+    margin: auto;
+    display: inline;
     font-size: 34px;
     background-color: white;
-    
+
 }
 ul{
     font-size: 28px;
