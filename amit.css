@@ -12,6 +12,7 @@ p{
     font-size: 28px;
     word-wrap: break-word;
     width: 1000px;
+    padding: 5px;
     display: inline-block;
     background-color: white;
     font-family: Arial;
