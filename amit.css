@@ -15,3 +15,25 @@ h2{
 ul{
     background-color: white;
 }
+[data-tab-content]{
+    display: none;
+}
+.active[data-tab-content]{
+    display: block;
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px lightgreen;
+}
+.tab{
+    cursor: pointer;
+    padding: 10px;
+}
+.tab:hover{
+    background-color: gray;
+}
+.tab.active{
+    background-color: lightgray;
+}

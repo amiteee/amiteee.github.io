@@ -2,19 +2,58 @@
     <head>
         <link rel="stylesheet" href="amit.css"/>
         <p>  שלום וברוכים הבאים, הגעתם לאתר קורות החיים של עמית אלפסי</p>
-        <a href = "experience.html"> ניסיון תעסוקתי</a>
-        <a href = "contact.html"> צור קשר</a>
-        <a href="index.html">ראשי</a>
-        <a href="resume.pdf" target="_blank"> טופס קורות חיים</a>
-        <a href="graduates.html">תעודות</a>
+        <script src = scrips.js defer></script>
         
     </head>
     <body>
-        <p>
-            קצת עליי: 
-            
-            אני עמית אלפסי, בן 21 סיימתי צבא לא מזמן. שירתי בתור מנהל רשת שלוש שנים בצה"ל וכעת אני מחפש את האתגר הבא.
-            מחפש עבודה לכמה חודשים עד התחלת תואר בהנדסת חשמל/מדעי המחשב
-        </p>
+       
+        <ul class="tabs">
+            <li data-tab-target="#main" class=" active tab">כללי</li>
+            <li data-tab-target="#experience" class="tab">ניסיון</li>
+            <li data-tab-target="#graduates" class="tab">תעודות</li>
+            <li data-tab-target="#contact" class="tab">צור קשר</li>
+            <li data-tab-target="#resume" class="tab">מסמך קו"ח</li>
+        </ul>
+        <div class="tabcontent">
+            <div id="main" data-tab-content class="active">
+                <p>
+                    קצת עליי: 
+                    
+                    אני עמית אלפסי, בן 21 סיימתי צבא לא מזמן. שירתי בתור מנהל רשת שלוש שנים בצה"ל וכעת אני מחפש את האתגר הבא.
+                    מחפש עבודה לכמה חודשים עד התחלת תואר בהנדסת חשמל/מדעי המחשב
+                </p>
+            </div>
+            <div id ="experience" data-tab-content>
+                <h1>ניסיון תעסוקתי</h1>
+                <h2 style="font-family: arial; font-size: 24px; color: gray;">שלוש שנים בצבא בתור מנהל רשת(יש תעודה)</h2>
+                <p>ידע בתחומים:</p>
+                    <ul>
+                        <li> תקלות טכניות במחשבים - בעיות רשת,  פרמוטים</li>
+                        <li> מסכים</li>
+                        <li>מדפסות - דרייברים, חיבור ידני או לרשת טיונרים וכו'</li>
+                        <li>סורקים - דרייברים </li>
+                        <li>תמיכה במאות משתמשים - ניהול הרשאות, פתיחה ומחיקת משתמשים, ניהול דומיין, גם בהקשר של אבטחת מידע ניסיון בAD</li>
+                        <li>טלפוניה - חיבור טלפונים וקווים, טיפול בתקלות</li>
+                        <li>תקשורת -גישור בין ארונות תקשורת כולל סוויצ'ים וסיבים אופטיים ועם מספר רשתות, ניסון עם DHCP,DNS</li>
+                        <li>עבודה עם: office, excel, outlook, Word, PowerPoint</li>
+                        <li>בנוסף - ניסיון ב<bdi dir="ltr">SCCM וCRM</bdi> העוזר בפתרון ומעקב אחר תקלות</li>
+                    </ul>
+                <p>להמלצות פנו אליי וטלפון יינתן לפי דרישה
+                </p>
+            </div>
+            <div id ="graduates" data-tab-content>
+                <a href="manahel.jpg" target="_blank">קורס מנהל רשת מטעם הצבא</a>
+                <p>
+                בגרות מלאה בממוצע 96.6 כולל 5 יח"ל מתמטיקה בציון 99, 5 אנגלית בציון 97, 5 מדעי המחשב בציון 99, ו5 בתכנון ותכנות מערכות בציון 95.
+                בנוסף, עשיתי פסיכומטרי תוך כדי הצבא בציון 716.
+                בניתי את האתר הזה בעצמי ולמדתי לבד.
+            </div>
+            <div id="contact" data-tab-content>
+
+            </div>
+            <div id="resume" data-tab-content>
+
+            </div>
+        </div>
     </body>
 </html>
