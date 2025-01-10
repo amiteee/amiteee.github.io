@@ -2,17 +2,26 @@ body{
 background-color:rgb(49, 233, 233);
 font-family: Arial;
 }
+h1{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 28px;
+}
 p{
+    display: inline-block;
     background-color: white;
     font-family: Arial;
 }
 head{
+    display: inline-block;
     background-color: white;
 }
 h2{
+    display: inline-block;
     background-color: white;
 }
 ul{
+    display: inline-block;
     background-color: white;
 }
 [data-tab-content]{
